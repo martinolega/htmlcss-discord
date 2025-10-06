@@ -180,11 +180,26 @@
     margin: 15px;
 }
 
+.blue-button
+{
+    display: inline-block;
+    background-color: rgb(123, 150, 224);
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.color-blue
+{
+    color: rgb(123, 150, 224);
+}
+
 /*HEADER*/
 
 .bg-blue-header
 {
-    background-color: rgb(49, 94, 232)
+    background-color: rgb(62, 106, 238)
 }
 
 .color-white
@@ -216,6 +231,17 @@
     width: 70%;
     max-width: 700px;
     margin: 0 auto;
+}
+
+/*FOOTER*/
+.bg-dark-gray
+{
+    background-color: rgb(43, 43, 43);
+}
+
+.img-small
+{
+    width: 5%;
 }
 
 /*DEBUG*/
