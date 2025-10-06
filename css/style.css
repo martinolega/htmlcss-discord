@@ -1,0 +1,162 @@
+/*Reset*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COMMON*/
+/*Layout*/
+
+.container
+{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    /*DEBUG*/
+    border: 2px solid black;
+}
+
+.header
+{
+    background-color: lightblue;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.flex-row
+{
+    flex-direction: row;
+}
+
+.flex-row-reverse
+{
+    flex-direction: row-reverse;
+}
+
+.space-between
+{
+    justify-content: space-between;
+}
+
+.space-around
+{
+    justify-content: space-around;
+}
+
+.align-center
+{
+    align-items: center;
+}
+
+.list-style-none
+{
+    list-style: none;
+}
+
+.w-70pc
+{
+    width: 70%;
+}
+
+.w-15pc
+{
+    width: 15%;
+}
+
+.w-60pc
+{
+    width: 60%;
+}
+
+.w-20pc
+{
+    width: 20%;
+}
+
+.w-40pc
+{
+    width: 40%;
+}
+
+.w-30pc
+{
+    width: 30%;
+}
+
+.w-small
+{
+    width: calc(70% / 4);
+}
+
+.justify-end
+{
+    justify-content: flex-end;
+}
+
+.py-30
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*HERO SECTION*/
+.hero-section
+{
+    background-color: blue;
+    padding: 40px 0;
+}
+
+.hero-content
+{
+    background-color: pink;
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.bg-blue-header
+{
+    background-color: rgb(49, 94, 232)
+}
+
+.color-white
+{
+    color: white;
+}
+
+.color-black
+{
+    color: black;
+}
+
+/**/
+
+.bg-lightgray
+{
+    background-color: lightgray;
+}
+
+.bg-lightgreen
+{
+    background-color: lightgreen;
+}
+
+.bg-lightblue
+{
+    background-color: lightblue;
+}
+
+/*DEBUG*/
+.mh-300
+{
+    min-height: 300px;
+}
