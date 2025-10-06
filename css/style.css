@@ -15,9 +15,6 @@
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-
-    /*DEBUG*/
-    border: 2px solid black;
 }
 
 .margin-15px
@@ -245,17 +242,3 @@
 }
 
 /*DEBUG*/
-.mh-300
-{
-    min-height: 300px;
-}
-
-.bg-lightgreen
-{
-    background-color: lightgreen;
-}
-
-.bg-lightblue
-{
-    background-color: lightblue;
-}
